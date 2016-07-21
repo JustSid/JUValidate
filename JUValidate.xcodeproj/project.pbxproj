@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9398F0605B3C60E4E171E8A5 /* JUArrayValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398FB65CE14300B8C6AFD8A /* JUArrayValidator.h */; };
+		9398F0E0B565BF9C496A40FC /* JUValidateArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398FC93AF316C9F013FE43D /* JUValidateArrayTests.m */; };
+		9398F1D1E1543654AA283E41 /* JULogicValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F5A39829F0FF68990F3C /* JULogicValidator.h */; };
+		9398F3648F74A41953B783CF /* JULogicValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398FADB9016F8883CEAEBCF /* JULogicValidator.m */; };
+		9398F3DF3E03C9C2428B2947 /* JUStringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398FCBA9AD6E04789ACCD9F /* JUStringValidator.m */; };
+		9398F6BED62298A982076025 /* JUDictionaryValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398FADA37F1C93B0EC61B75 /* JUDictionaryValidator.m */; };
+		9398F8397E66FE469331B758 /* JUNumberValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398FDF86E689D01052D55FF /* JUNumberValidator.h */; };
+		9398F85947DD0C20E7E5F3D8 /* JUNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398F84F74074EA3A70BBEE6 /* JUNumberValidator.m */; };
+		9398F8B609EC9251A9A651B3 /* JUStringValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F291B93BF89EE8B426BE /* JUStringValidator.h */; };
+		9398FA14A87BDD65E4E0B4F3 /* JUValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398F5E28EBA9799BD3ED273 /* JUValidator.m */; };
+		9398FA465991DC655047DEEC /* JUValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398FA8754773F19028E9F09 /* JUValidator.h */; };
+		9398FA6F7BA85D3E562FC9A3 /* JUArrayValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398F85EA38BBA501D4F6A61 /* JUArrayValidator.m */; };
+		9398FA7783F1F684D96934D3 /* JUBlockValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398FC4A378EB9C2751CDC6B /* JUBlockValidator.m */; };
+		9398FD6FC7BE7B14BD1CB4D9 /* JUBlockValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398FBBAE37C0FD68486DEAC /* JUBlockValidator.h */; };
+		9398FF0689D9ABD23F963275 /* JUValidateNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398FA27E424E1DDE48FBEE4 /* JUValidateNumberTests.m */; };
+		9398FF214E9AE38F2550BB21 /* JUDictionaryValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F9422C10F2222CDA701E /* JUDictionaryValidator.h */; };
+		9398FF7346C35AF551F83528 /* JUValidateDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398FFB752F33C9E36261EC2 /* JUValidateDictionaryTests.m */; };
+		E92E18581D3CF0D2000F9FDE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92E18571D3CF0D2000F9FDE /* XCTest.framework */; };
+		E936CB8E1D3A683B005B79DD /* JUValidate.h in Headers */ = {isa = PBXBuildFile; fileRef = E936CB8B1D3A683B005B79DD /* JUValidate.h */; };
+		E9F69E4E1D3A67A00063A5BC /* JUValidate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F69E431D3A67A00063A5BC /* JUValidate.framework */; };
+		E9F69E531D3A67A00063A5BC /* JUValidateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F69E521D3A67A00063A5BC /* JUValidateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F69E4F1D3A67A00063A5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F69E3A1D3A67A00063A5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F69E421D3A67A00063A5BC;
+			remoteInfo = JUValidate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9398F291B93BF89EE8B426BE /* JUStringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUStringValidator.h; sourceTree = "<group>"; };
+		9398F5A39829F0FF68990F3C /* JULogicValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JULogicValidator.h; sourceTree = "<group>"; };
+		9398F5E28EBA9799BD3ED273 /* JUValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUValidator.m; sourceTree = "<group>"; };
+		9398F84F74074EA3A70BBEE6 /* JUNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUNumberValidator.m; sourceTree = "<group>"; };
+		9398F85EA38BBA501D4F6A61 /* JUArrayValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUArrayValidator.m; sourceTree = "<group>"; };
+		9398F9422C10F2222CDA701E /* JUDictionaryValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUDictionaryValidator.h; sourceTree = "<group>"; };
+		9398FA27E424E1DDE48FBEE4 /* JUValidateNumberTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUValidateNumberTests.m; sourceTree = "<group>"; };
+		9398FA8754773F19028E9F09 /* JUValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUValidator.h; sourceTree = "<group>"; };
+		9398FADA37F1C93B0EC61B75 /* JUDictionaryValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUDictionaryValidator.m; sourceTree = "<group>"; };
+		9398FADB9016F8883CEAEBCF /* JULogicValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JULogicValidator.m; sourceTree = "<group>"; };
+		9398FB65CE14300B8C6AFD8A /* JUArrayValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUArrayValidator.h; sourceTree = "<group>"; };
+		9398FBBAE37C0FD68486DEAC /* JUBlockValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUBlockValidator.h; sourceTree = "<group>"; };
+		9398FC4A378EB9C2751CDC6B /* JUBlockValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUBlockValidator.m; sourceTree = "<group>"; };
+		9398FC93AF316C9F013FE43D /* JUValidateArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUValidateArrayTests.m; sourceTree = "<group>"; };
+		9398FCBA9AD6E04789ACCD9F /* JUStringValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUStringValidator.m; sourceTree = "<group>"; };
+		9398FDF86E689D01052D55FF /* JUNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUNumberValidator.h; sourceTree = "<group>"; };
+		9398FFB752F33C9E36261EC2 /* JUValidateDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUValidateDictionaryTests.m; sourceTree = "<group>"; };
+		E92E18571D3CF0D2000F9FDE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E936CB8B1D3A683B005B79DD /* JUValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUValidate.h; sourceTree = "<group>"; };
+		E936CB8D1D3A683B005B79DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F69E431D3A67A00063A5BC /* JUValidate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JUValidate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F69E4D1D3A67A00063A5BC /* JUValidateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JUValidateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F69E521D3A67A00063A5BC /* JUValidateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUValidateTests.m; sourceTree = "<group>"; };
+		E9F69E541D3A67A00063A5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F69E3F1D3A67A00063A5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F69E4A1D3A67A00063A5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92E18581D3CF0D2000F9FDE /* XCTest.framework in Frameworks */,
+				E9F69E4E1D3A67A00063A5BC /* JUValidate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E92E18561D3CF0D2000F9FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E92E18571D3CF0D2000F9FDE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E936CB8A1D3A683B005B79DD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E936CB8B1D3A683B005B79DD /* JUValidate.h */,
+				9398F5E28EBA9799BD3ED273 /* JUValidator.m */,
+				9398FA8754773F19028E9F09 /* JUValidator.h */,
+				9398FADA37F1C93B0EC61B75 /* JUDictionaryValidator.m */,
+				9398F9422C10F2222CDA701E /* JUDictionaryValidator.h */,
+				9398FC4A378EB9C2751CDC6B /* JUBlockValidator.m */,
+				9398FBBAE37C0FD68486DEAC /* JUBlockValidator.h */,
+				9398F85EA38BBA501D4F6A61 /* JUArrayValidator.m */,
+				9398FB65CE14300B8C6AFD8A /* JUArrayValidator.h */,
+				9398FCBA9AD6E04789ACCD9F /* JUStringValidator.m */,
+				9398F291B93BF89EE8B426BE /* JUStringValidator.h */,
+				9398FADB9016F8883CEAEBCF /* JULogicValidator.m */,
+				9398F5A39829F0FF68990F3C /* JULogicValidator.h */,
+				9398F84F74074EA3A70BBEE6 /* JUNumberValidator.m */,
+				9398FDF86E689D01052D55FF /* JUNumberValidator.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E936CB8C1D3A683B005B79DD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E936CB8D1D3A683B005B79DD /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E9F69E391D3A67A00063A5BC = {
+			isa = PBXGroup;
+			children = (
+				E9F69E451D3A67A00063A5BC /* JUValidate */,
+				E9F69E511D3A67A00063A5BC /* JUValidateTests */,
+				E9F69E441D3A67A00063A5BC /* Products */,
+				E92E18561D3CF0D2000F9FDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F69E441D3A67A00063A5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F69E431D3A67A00063A5BC /* JUValidate.framework */,
+				E9F69E4D1D3A67A00063A5BC /* JUValidateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F69E451D3A67A00063A5BC /* JUValidate */ = {
+			isa = PBXGroup;
+			children = (
+				E936CB8A1D3A683B005B79DD /* Source */,
+				E936CB8C1D3A683B005B79DD /* Supporting files */,
+			);
+			path = JUValidate;
+			sourceTree = "<group>";
+		};
+		E9F69E511D3A67A00063A5BC /* JUValidateTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F69E521D3A67A00063A5BC /* JUValidateTests.m */,
+				E9F69E541D3A67A00063A5BC /* Info.plist */,
+				9398FC93AF316C9F013FE43D /* JUValidateArrayTests.m */,
+				9398FA27E424E1DDE48FBEE4 /* JUValidateNumberTests.m */,
+				9398FFB752F33C9E36261EC2 /* JUValidateDictionaryTests.m */,
+			);
+			path = JUValidateTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E9F69E401D3A67A00063A5BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E936CB8E1D3A683B005B79DD /* JUValidate.h in Headers */,
+				9398FA465991DC655047DEEC /* JUValidator.h in Headers */,
+				9398FF214E9AE38F2550BB21 /* JUDictionaryValidator.h in Headers */,
+				9398FD6FC7BE7B14BD1CB4D9 /* JUBlockValidator.h in Headers */,
+				9398F0605B3C60E4E171E8A5 /* JUArrayValidator.h in Headers */,
+				9398F8B609EC9251A9A651B3 /* JUStringValidator.h in Headers */,
+				9398F1D1E1543654AA283E41 /* JULogicValidator.h in Headers */,
+				9398F8397E66FE469331B758 /* JUNumberValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E9F69E421D3A67A00063A5BC /* JUValidate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F69E571D3A67A00063A5BC /* Build configuration list for PBXNativeTarget "JUValidate" */;
+			buildPhases = (
+				E9F69E3E1D3A67A00063A5BC /* Sources */,
+				E9F69E3F1D3A67A00063A5BC /* Frameworks */,
+				E9F69E401D3A67A00063A5BC /* Headers */,
+				E9F69E411D3A67A00063A5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JUValidate;
+			productName = JUValidate;
+			productReference = E9F69E431D3A67A00063A5BC /* JUValidate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F69E4C1D3A67A00063A5BC /* JUValidateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F69E5A1D3A67A00063A5BC /* Build configuration list for PBXNativeTarget "JUValidateTests" */;
+			buildPhases = (
+				E9F69E491D3A67A00063A5BC /* Sources */,
+				E9F69E4A1D3A67A00063A5BC /* Frameworks */,
+				E9F69E4B1D3A67A00063A5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F69E501D3A67A00063A5BC /* PBXTargetDependency */,
+			);
+			name = JUValidateTests;
+			productName = JUValidateTests;
+			productReference = E9F69E4D1D3A67A00063A5BC /* JUValidateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F69E3A1D3A67A00063A5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sidney Just";
+				TargetAttributes = {
+					E9F69E421D3A67A00063A5BC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CK43D3C6TT;
+						DevelopmentTeamName = "Sidney Just (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					E9F69E4C1D3A67A00063A5BC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CK43D3C6TT;
+						DevelopmentTeamName = "Sidney Just (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E9F69E3D1D3A67A00063A5BC /* Build configuration list for PBXProject "JUValidate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9F69E391D3A67A00063A5BC;
+			productRefGroup = E9F69E441D3A67A00063A5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F69E421D3A67A00063A5BC /* JUValidate */,
+				E9F69E4C1D3A67A00063A5BC /* JUValidateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F69E411D3A67A00063A5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F69E4B1D3A67A00063A5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F69E3E1D3A67A00063A5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398FA14A87BDD65E4E0B4F3 /* JUValidator.m in Sources */,
+				9398F6BED62298A982076025 /* JUDictionaryValidator.m in Sources */,
+				9398FA7783F1F684D96934D3 /* JUBlockValidator.m in Sources */,
+				9398FA6F7BA85D3E562FC9A3 /* JUArrayValidator.m in Sources */,
+				9398F3DF3E03C9C2428B2947 /* JUStringValidator.m in Sources */,
+				9398F3648F74A41953B783CF /* JULogicValidator.m in Sources */,
+				9398F85947DD0C20E7E5F3D8 /* JUNumberValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F69E491D3A67A00063A5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F69E531D3A67A00063A5BC /* JUValidateTests.m in Sources */,
+				9398F0E0B565BF9C496A40FC /* JUValidateArrayTests.m in Sources */,
+				9398FF0689D9ABD23F963275 /* JUValidateNumberTests.m in Sources */,
+				9398FF7346C35AF551F83528 /* JUValidateDictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F69E501D3A67A00063A5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F69E421D3A67A00063A5BC /* JUValidate */;
+			targetProxy = E9F69E4F1D3A67A00063A5BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9F69E551D3A67A00063A5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9F69E561D3A67A00063A5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9F69E581D3A67A00063A5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "JUValidate/Supporting files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.widerwille.JUValidate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E9F69E591D3A67A00063A5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "JUValidate/Supporting files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.widerwille.JUValidate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E9F69E5B1D3A67A00063A5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JUValidateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.widerwille.JUValidateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9F69E5C1D3A67A00063A5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JUValidateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.widerwille.JUValidateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F69E3D1D3A67A00063A5BC /* Build configuration list for PBXProject "JUValidate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F69E551D3A67A00063A5BC /* Debug */,
+				E9F69E561D3A67A00063A5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F69E571D3A67A00063A5BC /* Build configuration list for PBXNativeTarget "JUValidate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F69E581D3A67A00063A5BC /* Debug */,
+				E9F69E591D3A67A00063A5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F69E5A1D3A67A00063A5BC /* Build configuration list for PBXNativeTarget "JUValidateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F69E5B1D3A67A00063A5BC /* Debug */,
+				E9F69E5C1D3A67A00063A5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F69E3A1D3A67A00063A5BC /* Project object */;
+}
