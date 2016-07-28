@@ -98,7 +98,7 @@ extern NSError *JUMakeError(JUValidatorError code, NSString *reason);
 
 + (instancetype)validatorWithType:(JULogicValidatorType)type
 {
-	return [[self alloc] initWithType:type];
+	return [(JULogicValidator *)[self alloc] initWithType:type];
 }
 
 @end
