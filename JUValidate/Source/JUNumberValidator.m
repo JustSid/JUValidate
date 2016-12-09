@@ -135,9 +135,28 @@ extern NSError *JUMakeError(JUValidatorError code, NSString *reason);
 	return isType(double);
 }
 
+#define isBoolType(type) (strcmp((type), @encode(bool)) == 0 || strcmp((type), @encode(BOOL)) == 0 || strcmp((type), @encode(char)) == 0 || strcmp((type), @encode(uint8_t)) == 0 || strcmp((type), @encode(boolean_t)) == 0)
+
 - (JUNumberValidator * (^)())isBoolean
 {
-	return isType(BOOL);
+	return ^JUNumberValidator * () {
+
+		JUBlockValidator *validator = [JUBlockValidator validatorForClass:[NSNumber class] withBlock:^id (NSNumber *number, NSError **error) {
+
+			const char *type = [number objCType];
+
+			if(!isBoolType(type))
+			{
+				*error = JUMakeError(JUValidatorErrorValidationFailed, [NSString stringWithFormat:@"Expected BOOL type (got %s)", type]);
+				return nil;
+			}
+
+			return number;
+
+		}];
+
+		return JUAddProxyValidator(validator);
+	};
 }
 
 
@@ -147,7 +166,15 @@ extern NSError *JUMakeError(JUValidatorError code, NSString *reason);
 
 		JUBlockValidator *validator = [JUBlockValidator validatorForClass:[NSNumber class] withBlock:^id (NSNumber *number, NSError **error) {
 
-			if(strcmp([number objCType], @encode(BOOL)) != 0 || ![number boolValue])
+			const char *type = [number objCType];
+
+			if(!isBoolType(type))
+			{
+				*error = JUMakeError(JUValidatorErrorValidationFailed, [NSString stringWithFormat:@"Expected BOOL type (got %s)", type]);
+				return nil;
+			}
+
+			if(![number boolValue])
 			{
 				*error = JUMakeError(JUValidatorErrorValidationFailed, [NSString stringWithFormat:@"Expected True"]);
 				return nil;
@@ -166,7 +193,15 @@ extern NSError *JUMakeError(JUValidatorError code, NSString *reason);
 
 		JUBlockValidator *validator = [JUBlockValidator validatorForClass:[NSNumber class] withBlock:^id (NSNumber *number, NSError **error) {
 
-			if(strcmp([number objCType], @encode(BOOL)) != 0 || [number boolValue])
+			const char *type = [number objCType];
+
+			if(!isBoolType(type))
+			{
+				*error = JUMakeError(JUValidatorErrorValidationFailed, [NSString stringWithFormat:@"Expected BOOL type (got %s)", type]);
+				return nil;
+			}
+
+			if([number boolValue])
 			{
 				*error = JUMakeError(JUValidatorErrorValidationFailed, [NSString stringWithFormat:@"Expected False"]);
 				return nil;
