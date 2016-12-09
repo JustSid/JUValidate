@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 	spec.name = 'JUValidate'
-	spec.version = '0.9.1'
+	spec.version = '0.9.2'
 	spec.summary = 'Object graph validation library'
 	spec.homepage = 'http://github.com/JustSid/JUValidate'
 	spec.authors = { 'Sidney Just' => 'justsid@widerwille.com' }
